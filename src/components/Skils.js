@@ -36,9 +36,13 @@ export const Skills = () => {
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.<br></br> Lorem Ipsum has been the industry's standard
-                dummy text.
+                A professional skilled in UI/UX design, front-end and back-end
+                web development, project management, and graphic design.
+                Experienced in crafting intuitive user interfaces using Figma,
+                and building high-performance websites and web applications with
+                React and Vue.js. Proficient in developing RESTful APIs with
+                Node.js and Express.js, and managing projects with JIRA and
+                Trello.
               </p>
               <Carousel
                 responsive={responsive}
@@ -51,12 +55,12 @@ export const Skills = () => {
                 </div>
                 <div className="item">
                   <img src={meter2} alt="Image" />
-                  <h5>Brand Identity</h5>
-                </div>
-                <div className="item">
-                  <img src={meter3} alt="Image" />
                   <h5>UI/UX Design</h5>
                 </div>
+                {/* <div className="item">
+                  <img src={meter3} alt="Image" />
+                  <h5>UI/UX Design</h5>
+                </div> */}
                 <div className="item">
                   <img src={meter1} alt="Image" />
                   <h5>Back-End Development</h5>

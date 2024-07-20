@@ -74,11 +74,15 @@ const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                    I am a skilled Full Stack Developer with a strong background
+                    in PHP and JavaScript, dedicated to building and maintaining
+                    high-quality web applications. With years of experience in
+                    both front-end and back-end development, I ensure that
+                    products meet the highest standards of reliability,
+                    usability, and performance. My passion for software
+                    development drives me to continuously learn and adapt to new
+                    technologies, enabling me to deliver efficient and scalable
+                    solutions.
                   </p>
                   <button onClick={() => console.log("connect")}>
                     Let’s Connect <ArrowRightCircle size={25} />

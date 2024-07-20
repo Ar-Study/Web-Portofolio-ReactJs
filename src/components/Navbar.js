@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from "../assets/img/logo.svg";
 import navIcon1 from "../assets/img/nav-icon1.svg";
-import navIcon2 from "../assets/img/nav-icon2.svg";
+import navIcon4 from "../assets/img/nav-icon4.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
 // import { HashLink } from "react-router-hash-link";
 // import { BrowserRouter as Router } from "react-router-dom";
@@ -70,13 +70,13 @@ export const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="#">
+              <a href="https://www.linkedin.com/in/muhammadfarrelpradipta/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                 <img src={navIcon1} alt="" />
               </a>
-              <a href="#">
-                <img src={navIcon2} alt="" />
+              <a href="https://github.com/Ar-Study">
+                <img src={navIcon4} alt="" />
               </a>
-              <a href="#">
+              <a href="https://www.instagram.com/muhammadfarrelpradipta?igsh=NW9rZDdtNWt0eGhm">
                 <img src={navIcon3} alt="" />
               </a>
             </div>
