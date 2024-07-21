@@ -22,11 +22,11 @@ To start the development server, run: npm start. The app will be available at ht
 Customize the content of your portfolio by editing the relevant components and JSON files located in the src directory. Update your bio, skills, and projects to reflect your own information.
 
 ### Technologies Used
-ReactJS: A JavaScript library for building user interfaces.
-React Router: For routing between different sections of the portfolio.
-Axios: For making HTTP requests.
-Material-UI: For styling and UI components.
-React Icons: For integrating icons.
+1. ReactJS: A JavaScript library for building user interfaces.
+2. React Router: For routing between different sections of the portfolio.
+3. Axios: For making HTTP requests.
+4. Material-UI: For styling and UI components.
+5. React Icons: For integrating icons.
 ### Contributing
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 1. Fork the Project
