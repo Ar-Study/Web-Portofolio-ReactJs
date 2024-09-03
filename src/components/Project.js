@@ -4,6 +4,7 @@ import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import projImg5 from "../assets/img/project-img5.jpg";
+import projImg6 from "../assets/img/project-img6.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 // import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -17,9 +18,10 @@ export const Projects = () => {
       link: "https://web-pembelajaran-mern-pwa-uluw.vercel.app/",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Netflix Clone",
+      description: "React & Firebase",
+      imgUrl: projImg6,
+      link: "https://netflix-clone-1489d.web.app/",
     },
     {
       title: "Business Startup",
@@ -69,7 +71,7 @@ export const Projects = () => {
                       id="pills-tab"
                     >
                       <Nav.Item>
-                        <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                        <Nav.Link eventKey="first">Javascript</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
                         <Nav.Link eventKey="second">Tab 2</Nav.Link>
