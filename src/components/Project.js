@@ -5,6 +5,11 @@ import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import projImg5 from "../assets/img/project-img5.jpg";
 import projImg6 from "../assets/img/project-img6.jpg";
+import projImg7 from "../assets/img/project-img7.jpg";
+import projImg8 from "../assets/img/project-img8.jpg";
+import projImg9 from "../assets/img/project-img9.jpg";
+import projImg10 from "../assets/img/project-img10.jpg";
+
 import colorSharp2 from "../assets/img/color-sharp2.png";
 // import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -24,24 +29,28 @@ export const Projects = () => {
       link: "https://netflix-clone-1489d.web.app/",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "Sistem Penerimaan Beasiswa Menggunakan AHP",
+      description: "PHP & MySQL",
+      imgUrl: projImg7,
+      link: "https://github.com/Ar-Study/SistemPendukungKeputusan_BeasiswaLuarNegeri_Ver2.0",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "Point Of Sales Kasir Toko Buku",
+      description: "CodeIgniter 4 & MySQL",
+      imgUrl: projImg8,
+      link: "https://smartinventory.umppress.com/",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Profile Toko Buku",
+      description: "Wordpress Plugin",
+      imgUrl: projImg9,
+      link: "https://umppress.com/",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "Personal Portofolio",
+      description: "NodeJS & React",
+      imgUrl: projImg10,
+      link: "https://web-portofolio-react-js.vercel.app/",
     },
   ];
 
@@ -71,13 +80,13 @@ export const Projects = () => {
                       id="pills-tab"
                     >
                       <Nav.Item>
-                        <Nav.Link eventKey="first">Javascript</Nav.Link>
+                        <Nav.Link eventKey="first">Web and Web App</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                        <Nav.Link eventKey="second">Mobile App</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                        <Nav.Link eventKey="third">UI/UX Design</Nav.Link>
                       </Nav.Item>
                     </Nav>
                     <Tab.Content
