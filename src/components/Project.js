@@ -1,7 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
+import projImg11 from "../assets/img/project-img11.png";
+import projImg12 from "../assets/img/project-img12.png";
 import projImg3 from "../assets/img/project-img3.png";
 import projImg5 from "../assets/img/project-img5.jpg";
 import projImg6 from "../assets/img/project-img6.jpg";
@@ -51,6 +51,18 @@ export const Projects = () => {
       description: "NodeJS & React",
       imgUrl: projImg10,
       link: "https://web-portofolio-react-js.vercel.app/",
+    },
+    {
+      title: "Aplikasi Catatan Offline",
+      description: "VueJs",
+      imgUrl: projImg11,
+      link: "https://ar-study.github.io/NoteApp-Vue/",
+    },
+    {
+      title: "Aplikasi Counter / Perhitungan Angka",
+      description: "VueJs",
+      imgUrl: projImg12,
+      link: "https://ar-study.github.io/CounterApp-Vue/",
     },
   ];
 
