@@ -4,8 +4,21 @@ import logo from "../assets/img/logo.svg";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon4 from "../assets/img/nav-icon4.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
+import { useEffect } from "react";
 
 export const Footer = () => {
+  useEffect(() => {
+    // Cek apakah script sudah ada untuk mencegah duplikasi
+    if (!document.getElementById("tawkto-script")) {
+      var s1 = document.createElement("script");
+      s1.async = true;
+      s1.src = "https://embed.tawk.to/67a219ca825083258e0feab5/1ij8j9g72";
+      s1.charset = "UTF-8";
+      s1.setAttribute("crossorigin", "*");
+      s1.id = "tawkto-script";
+      document.body.appendChild(s1);
+    }
+  }, []);
   return (
     <footer className="footer">
       <Container>
