@@ -7,12 +7,25 @@ import navIcon3 from "../assets/img/nav-icon3.svg";
 import { useEffect } from "react";
 
 export const Footer = () => {
+  // useEffect(() => {
+  //   // Cek apakah script sudah ada untuk mencegah duplikasi
+  //   if (!document.getElementById("tawkto-script")) {
+  //     var s1 = document.createElement("script");
+  //     s1.async = true;
+  //     s1.src = "https://embed.tawk.to/67a219ca825083258e0feab5/1ij8j9g72";
+  //     s1.charset = "UTF-8";
+  //     s1.setAttribute("crossorigin", "*");
+  //     s1.id = "tawkto-script";
+  //     document.body.appendChild(s1);
+  //   }
+  // }, []);
+
   useEffect(() => {
-    // Cek apakah script sudah ada untuk mencegah duplikasi
+    // Cek apakah script sudah dimuat untuk mencegah duplikasi
     if (!document.getElementById("tawkto-script")) {
       var s1 = document.createElement("script");
       s1.async = true;
-      s1.src = "https://embed.tawk.to/67a219ca825083258e0feab5/1ij8j9g72";
+      s1.src = "https://embed.tawk.to/67a2943d825083258e1012c7/1ij9h64tp";
       s1.charset = "UTF-8";
       s1.setAttribute("crossorigin", "*");
       s1.id = "tawkto-script";
