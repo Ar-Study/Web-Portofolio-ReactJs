@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Portofolio Farrel",
+  "name": "Muhammad Farrel Pradipta - Full Stack Developer",
+  "description": "Jasa pembuatan website, web apps, dan aplikasi. Full Stack Developer berpengalaman di React, Vue, PHP, Node.js, dan UI/UX design.",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +21,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#6c63ff",
   "background_color": "#ffffff"
 }

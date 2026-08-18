@@ -3,14 +3,62 @@ import meter2 from "../assets/img/meter2.svg";
 import meter3 from "../assets/img/meter3.svg";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
+import { CodeSlash, Gear, Brush, Wrench } from "react-bootstrap-icons";
 import colorSharp from "../assets/img/color-sharp.png";
+
+const skillCategories = [
+  {
+    title: "Front-End",
+    Icon: CodeSlash,
+    skills: [
+      "HTML & CSS",
+      "JavaScript (ES6+)",
+      "React.js",
+      "Vue.js",
+      "Bootstrap & Tailwind",
+      "Responsive Design",
+    ],
+  },
+  {
+    title: "Back-End",
+    Icon: Gear,
+    skills: [
+      "PHP",
+      "Node.js & Express.js",
+      "CodeIgniter 4",
+      "MySQL",
+      "REST API",
+      "Firebase",
+    ],
+  },
+  {
+    title: "UI/UX Design",
+    Icon: Brush,
+    skills: [
+      "Figma",
+      "Wireframe & Prototype",
+      "Design System",
+      "User Research",
+      "Mobile-First Design",
+    ],
+  },
+  {
+    title: "Tools & Lainnya",
+    Icon: Wrench,
+    skills: [
+      "Git & GitHub",
+      "JIRA & Trello",
+      "WordPress",
+      "PWA",
+      "Graphic Design",
+      "Project Management",
+    ],
+  },
+];
 
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
     },
@@ -28,6 +76,12 @@ export const Skills = () => {
     },
   };
 
+  const meterItems = [
+    { img: meter1, label: "Front-End Development" },
+    { img: meter2, label: "Back-End Development" },
+    { img: meter3, label: "UI/UX Design" },
+  ];
+
   return (
     <section className="skill" id="skills">
       <div className="container">
@@ -36,41 +90,45 @@ export const Skills = () => {
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
               <p>
-                A professional skilled in UI/UX design, front-end and back-end
-                web development, project management, and graphic design.
-                Experienced in crafting intuitive user interfaces using Figma,
-                and building high-performance websites and web applications with
-                React and Vue.js. Proficient in developing RESTful APIs with
-                Node.js and Express.js, and managing projects with JIRA and
-                Trello.
+                Kombinasi kemampuan front-end, back-end, dan desain UI/UX untuk
+                membangun website &amp; aplikasi yang modern, cepat, dan
+                menarik. Berpengalaman menggunakan berbagai teknologi populer
+                serta tools manajemen project profesional.
               </p>
               <Carousel
                 responsive={responsive}
                 infinite={true}
                 className="owl-carousel owl-theme skill-slider"
               >
-                <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h5>Front-End Development</h5>
-                </div>
-                <div className="item">
-                  <img src={meter2} alt="Image" />
-                  <h5>UI/UX Design</h5>
-                </div>
-                {/* <div className="item">
-                  <img src={meter3} alt="Image" />
-                  <h5>UI/UX Design</h5>
-                </div> */}
-                <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h5>Back-End Development</h5>
-                </div>
+                {meterItems.map((item, i) => (
+                  <div className="item" key={i}>
+                    <img src={item.img} alt={item.label} />
+                    <h5>{item.label}</h5>
+                  </div>
+                ))}
               </Carousel>
+              <div className="skill-grid">
+                {skillCategories.map((cat, i) => (
+                  <div className="skill-card" key={i}>
+                    <h5 className="skill-card-title">
+                      <span className="skill-icon">
+                        <cat.Icon size={18} />
+                      </span>{" "}
+                      {cat.title}
+                    </h5>
+                    <ul className="skill-tags">
+                      {cat.skills.map((s, j) => (
+                        <li key={j}>{s}</li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <img className="background-image-left" src={colorSharp} alt="Image" />
+      <img className="background-image-left" src={colorSharp} alt="Background" />
     </section>
   );
 };

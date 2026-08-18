@@ -84,9 +84,12 @@ const Banner = () => {
                     technologies, enabling me to deliver efficient and scalable
                     solutions.
                   </p>
-                  <button onClick={() => console.log("connect")}>
+                  <a
+                    href="#contact"
+                    className="connect-btn"
+                  >
                     Let’s Connect <ArrowRightCircle size={25} />
-                  </button>
+                  </a>
                 </div>
               )}
             </TrackVisibility>
@@ -99,7 +102,7 @@ const Banner = () => {
                     isVisible ? "animate__animated animate__zoomIn" : ""
                   }
                 >
-                  <img src={headerImg} alt="Header Img" />
+                  <img className="banner-img" src={headerImg} alt="Header Img" />
                 </div>
               )}
             </TrackVisibility>

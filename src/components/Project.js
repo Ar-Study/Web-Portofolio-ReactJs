@@ -79,7 +79,7 @@ export const Projects = () => {
                   }
                 >
                   <h2>Projects</h2>
-                  <p>
+                  <p className="project-desc">
                     I have successfully completed projects such as developing an
                     online training platform using the MERN stack with
                     client-side data backup and building a dynamic business
