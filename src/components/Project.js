@@ -8,6 +8,11 @@ import projImg7 from "../assets/img/project-img7.jpg";
 import projImg8 from "../assets/img/project-img8.jpg";
 import projImg9 from "../assets/img/project-img9.jpg";
 import projImg10 from "../assets/img/project-img10.jpg";
+import projImg13 from "../assets/img/project-img13.png";
+import projImg14 from "../assets/img/project-img14.png";
+import projImg15 from "../assets/img/project-img15.jpeg";
+import projImg16 from "../assets/img/project-img16.jpeg";
+import projImg17 from "../assets/img/project-img17.jpeg";
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
 // import "animate.css";
@@ -62,6 +67,36 @@ export const Projects = () => {
       description: "VueJs",
       imgUrl: projImg12,
       link: "https://ar-study.github.io/CounterApp-Vue/",
+    },
+    {
+      title: "Company Profile Konstruksi",
+      description: "",
+      imgUrl: projImg13,
+      link: "https://ar-study.github.io/CompanyProfile_Konstruksi/",
+    },
+    {
+      title: "Wedding Invitation",
+      description: "",
+      imgUrl: projImg14,
+      link: "https://ar-study.github.io/Wedding_Digital_Invitation/",
+    },
+    {
+      title: "Bisnis Kopi",
+      description: "",
+      imgUrl: projImg15,
+      link: "https://ar-study.github.io/LandingPage_Kopi/",
+    },
+    {
+      title: "Bisnis Resto",
+      description: "",
+      imgUrl: projImg16,
+      link: "https://ar-study.github.io/LandingPage_Resto/",
+    },
+    {
+      title: "Ecommerce Fashion",
+      description: "",
+      imgUrl: projImg17,
+      link: "https://ar-study.github.io/ECommerce_Fashion/",
     },
   ];
 
