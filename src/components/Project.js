@@ -13,6 +13,7 @@ import projImg14 from "../assets/img/project-img14.png";
 import projImg15 from "../assets/img/project-img15.jpeg";
 import projImg16 from "../assets/img/project-img16.jpeg";
 import projImg17 from "../assets/img/project-img17.jpeg";
+import projImg18 from "../assets/img/project-img18.png";
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
 // import "animate.css";
@@ -97,6 +98,12 @@ export const Projects = () => {
       description: "",
       imgUrl: projImg17,
       link: "https://ar-study.github.io/ECommerce_Fashion/",
+    },
+    {
+      title: "CoffeeShop",
+      description: "",
+      imgUrl: projImg18,
+      link: "https://ar-study.github.io/CoffeeShop-v2/",
     },
   ];
 
